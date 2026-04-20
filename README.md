@@ -50,54 +50,11 @@ A full-stack travel management platform designed to streamline trip planning, de
 | Security   | PHP Sessions, `password_hash`, CSRF tokens, prepared statements |
 
 ---
-
-## 📁 Project Structure
-
-```
-travel-management/
-│
-├── assets/
-│   ├── css/              # Stylesheets
-│   ├── js/               # JavaScript files
-│   └── images/           # Static images & icons
-│
-├── config/
-│   ├── db.php            # Database connection
-│   └── constants.php     # App-wide constants
-│
-├── includes/
-│   ├── header.php        # Reusable header partial
-│   ├── footer.php        # Reusable footer partial
-│   ├── auth.php          # Auth helper functions
-│   └── functions.php     # General utility functions
-│
-├── pages/
-│   ├── destinations.php  # Destination listings
-│   ├── destination.php   # Single destination detail
-│   ├── planner.php       # Trip planner interface
-│   ├── booking.php       # Booking form & flow
-│   ├── profile.php       # User profile & history
-│   └── login.php         # Login & registration
-│
-├── admin/
-│   ├── dashboard.php     # Admin overview
-│   ├── destinations.php  # Manage destinations
-│   ├── bookings.php      # Manage bookings
-│   └── users.php         # Manage users
-│
-├── api/
-│   ├── destinations.php  # Destinations JSON endpoint
-│   ├── bookings.php      # Bookings JSON endpoint
-│   └── search.php        # Search JSON endpoint
-│
-├── sql/
-│   ├── schema.sql        # Database schema
-│   └── seed.sql          # Sample data
-│
-└── index.php             # Application entry point
+# Application entry point
 ```
 
 ---
+
 
 ## 🚀 Getting Started
 
